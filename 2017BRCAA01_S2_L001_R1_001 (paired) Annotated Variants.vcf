@@ -1,0 +1,26 @@
+##fileformat=VCFv4.1
+##fileDate=20170509
+##fileEncoding=UTF-8
+##fileOrigin=/WorkBench_Database_SSD/RC_2017_NGS_03/CAP2017A_BRCA_01/2017BRCAA01_S2_L001_R1_001 (paired) Annotated Variants
+##source=Biomedical Genomics Workbench 4.0 build 20170224121815
+##reference=/CLC_References/homo_sapiens/sequence/hg19/Homo_sapiens_sequence_hg19
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total number of filtered reads per sample used by variant caller">
+##FORMAT=<ID=CLCAD2,Number=.,Type=Integer,Description="Allelic depth, number of filtered reads supporting the alleles where the first element represents the reference and subsequent elements represent the alternatives in the order listed in the ALT column">
+##FORMAT=<ID=VF,Number=1,Type=Float,Description="Variant frequency, the percentage of reads supporting the alternate allele">
+##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic depth, unfiltered count of all reads">
+##FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	2017BRCAA01_S2_L001_R1_001 (paired) Annotated Variants
+13	32906729	rs144848	A	C	200.00	.	.	GT:CLCAD2:DP	0/1:312,327:640
+13	32911888	rs1801406	A	G	200.00	.	.	GT:CLCAD2:DP	0/1:378,394:772
+13	32913055	rs206075	A	G	200.00	.	.	GT:CLCAD2:DP	1/1:0,583:583
+13	32915005	rs206076	G	C	200.00	.	.	GT:CLCAD2:DP	1/1:0,920:920
+13	32929387	rs169547	T	C	200.00	.	.	GT:CLCAD2:DP	1/1:0,571:571
+16	68771372	rs3743674	C	T	159.55	.	.	GT:CLCAD2:DP	1/1:0,381:385
+16	68842480	rs33963999	G	C	200.00	.	.	GT:CLCAD2:DP	0/1:304,274:579
+16	68857441	rs1801552	T	C	200.00	.	.	GT:CLCAD2:DP	0/1:226,253:479
+17	7579472	rs1042522	G	C	159.55	.	.	GT:CLCAD2:DP	1/1:0,373:374
+17	41245233	rs80357467	A	G	200.00	.	.	GT:CLCAD2:DP	0/1:218,207:425
+17	41246334	.	GA	G	200.00	.	.	GT:CLCAD2:DP	0/1:307,167:474
+19	1222012	rs2075607	G	C	200.00	.	.	GT:CLCAD2:DP	0/1:116,106:223
